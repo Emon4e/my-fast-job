@@ -7,13 +7,14 @@ body{
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
-    flex-shrink: 16px;
+    flex-shrink: 0;
     border-radius: 16px;
+    
 }
 .happy{
-    background: linear-gradient(180deg, #070211 0&, rgba(7, 2, 17, 0.00) 100&););
+    background: linear-gradient(180deg, #070211 0&, , rgba(7, 2, 17, 0.00) 100&););
 }
-.happy h6{
+.happy h3{
     padding-top: 140px;
     color: #FFF;
     text-align: center;
@@ -21,11 +22,11 @@ font-family: Merriweather;
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 95px; /* 131.944% */
 }
-.happy h2{
+.happy h1{
 
-    color: #FFF;
+    color: #FFFFFF
 text-align: center;
 font-family: Merriweather;
 font-size: 72px;
@@ -34,5 +35,39 @@ font-weight: 900;
 
 }
 .font{
-    padding-top: 80px;
+    padding-top: 60px;
+}
+/*banner style*/
+.container{
+    margin-top: 240px;
+    width: 1600px;
+    height: 7335px;
+    background: #FFF;
+}
+#head{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#paragraph{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#heder{
+    color: #070211;
+    text-align: center;
+    font-size: 47px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
